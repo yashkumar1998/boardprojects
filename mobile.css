@@ -1,0 +1,340 @@
+body{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+header{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height:100vh;
+}
+nav{
+    background-color: yellow;
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 25%;
+    text-align:center;
+    text-transform: uppercase;
+
+}
+nav .navbar{
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    display: flex;
+}
+nav .navbar a{
+    width: 25%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#sec{
+    width:100%;
+    height: 70vh;
+}
+section .num{
+    margin-top: 5px;
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    
+}
+section .num h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+section .img{
+    align-items: center;
+    display: flex;
+    
+    width: 30%;
+    height: 20vh;
+    position: relative;
+    top:50%;
+    left: 80%;
+    
+    
+}
+section .box{
+    border: 10px;
+    width: 15%;
+    margin-left: 60px;
+    margin-top: 5%;
+    background-color: yellow;
+    border-radius: 20px;
+    position: relative;
+    
+
+
+}
+ #box1{
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+#sect{
+    
+    margin-top: 80px;
+    width: 100%;
+    height: 45vh;
+
+    justify-content: center;
+    text-align:center;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+.mid{
+    margin-top: -28px;;
+}
+.mid h2{
+    font-size: 29px;
+    font-weight: bold;
+}
+.mid h3{
+    font-size: 15px;
+}
+#sect button{
+    border-radius: 20px;
+    padding: 5px 30px;
+    font-size: 13px;
+    font-weight: 300;
+    outline:none;
+    text-transform: none;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: -20px;
+    
+}
+.btnone{
+    background-color: black;
+    
+   
+}
+.btnone h3{
+    font-size: 10px;
+    margin-left: -10px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+    
+    
+}
+.btnone h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: -8px;
+    text-align: center;
+    
+}
+.btntwo{
+    background-color: black;
+    
+}
+.btntwo h3{
+    font-size: 10px;
+    margin-left: -10px;
+    margin-top: -5px;
+    margin-bottom: -4px;
+    text-align: center;
+    
+
+}
+.btntwo h2{
+    font-size: 20px;
+    font-size: bold;
+    margin-left: 20px;
+    margin-bottom:-8px;
+
+}
+.head{
+    position: relative;
+    bottom:15px;
+    
+}
+button img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: -70px;
+    bottom: -12px;
+}
+#nam{
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    text-align:center;  
+    display: flex;
+}
+.tex {
+    
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+}
+.tex h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.tex h3{
+    font-size: 20PX;
+    font-weight: normal;
+    
+}
+.ima{
+    align-items: center;
+    display: flex;
+    
+    width: 30%;
+    height: 40vh;
+    position: relative;
+    top:5%;
+    left: -25%;
+
+}
+.main{
+    position: relative;
+    left: 200px;
+    top: -200px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    display: flex;
+
+}
+.first{
+    position: relative;
+    right: 100px;
+}
+#ror{
+    position: relative;
+    left: -50px;
+}
+#ror2{
+    position: relative;
+    left: 100px;
+}
+.first h1{
+    
+    font-size: 25px;
+    font-weight: bold;
+    left: 100px;
+
+
+}
+.first h3{
+    font-size: 14px;
+}
+.not{
+    position: relative;
+    left: 200px;
+    top: -200px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.second{
+    position: relative;
+    right: 100px;
+}
+#gor{
+    position: relative;
+    left: -70px;
+    margin-top: 30px; 
+}
+#gor1{
+    position: relative;
+    left: 140px;
+    margin-top: 30px;
+}
+.second h1{
+    
+    font-size: 25px;
+    font-weight: bold;
+    left: 100px;
+
+
+}
+.second h3{
+    font-size: 14px;
+}
+#seclast{
+    margin-top: 80px;
+    width: 100%;
+    height: 25vh;
+
+    justify-content: center;
+    text-align:center;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+.lastsec h2{
+    margin-top: -70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.tube{
+    position:relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    top: 30px;
+}
+.tube img{
+    border-radius: 10px;
+    width: 35px;
+}
+#last{
+    
+    width: 100%;
+    height: 25vh;
+
+    justify-content: center;
+    text-align:center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.last{
+    color: rgba(255, 255, 255, 0.555);
+    
+}
+.last h3{
+    font-size: 16px;
+}
+.last h2{
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.493);
+    padding-bottom: 2px;;
+}
+#helo{
+    position: relative;
+    left: -20px;
+}
+#bye{
+    position: relative;
+    left: 20px;
+}
+.link{
+    text-align: right;
+}
